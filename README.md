@@ -1,4 +1,4 @@
-# nodejs-app-demo
+# nodejs-demo-app
 This is a node demo application using the express js server and MongoDB. we can insert data to the MongoDB database and fetch data and show on the frontend page, also it shows the hostname, private IP, and public IP.
 
 ![Screenshot](nodejs-app-demo.jpg)
