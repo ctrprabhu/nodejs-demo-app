@@ -1,3 +1,5 @@
 apt-get update -y
-ls -al
-pwd
+apt-get install curl -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+source ~/.bashrc
+echo $NVM_DIR
