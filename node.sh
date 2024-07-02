@@ -2,7 +2,7 @@
 
 # Update and install necessary packages
 sudo apt update
-sudo apt install -y curl
+sudo apt install -y curl wget 
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
