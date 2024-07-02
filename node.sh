@@ -14,7 +14,7 @@ export NVM_DIR="$HOME/.nvm"
 # This loads nvm bash_completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-
+echo $NVM_DIR
 # Install Node.js version 16
 #nvm install 16
 
