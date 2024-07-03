@@ -8,7 +8,7 @@ sudo apt install -y curl wget
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Source .bashrc to load nvm
-source ~/.bashrc
+source $HOME/.bashrc
 
 # Load nvm into the current shell session
 export NVM_DIR="$HOME/.nvm"
@@ -27,3 +27,4 @@ nvm alias default 16
 # Verify the installation
 node -v
 npm -v
+
