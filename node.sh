@@ -28,3 +28,7 @@ nvm alias default 16
 node -v
 npm -v
 
+npm install
+npm fund
+npm audit fix
+npm start
