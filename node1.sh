@@ -1,7 +1,6 @@
 #!/bin/bash
 # Update and install necessary packages
-sudo apt update
-# Verify the installation
+date
 node -v
 npm -v
 npm install
