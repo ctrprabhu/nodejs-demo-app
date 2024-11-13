@@ -5,4 +5,4 @@ date
 /home/ubuntu/techhaus-website/
 node -v
 npm -v
-#npm install
+npm install
