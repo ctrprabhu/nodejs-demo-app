@@ -17,12 +17,13 @@ export NVM_DIR="$HOME/.nvm"
 # This loads nvm bash_completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+. $HOME/.bashrc
 # Install Node.js version 16
-nvm install 16
+nvm install 20
 
 # Set Node.js version 16 as the default version
-nvm use 16
-nvm alias default 16
+nvm use 20
+nvm alias default 20
 
 # Verify the installation
 node -v
